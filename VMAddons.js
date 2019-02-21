@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         VM Addons
 // @namespace    bestgalloway
-// @version      0.5.2
+// @version      0.5.3
 // @downloadURL  https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @updateURL    https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @description  Adds utility buttons & messages to the DOM on certain pages to make life easier for users.
@@ -125,9 +125,10 @@
 
 			var isOTA = OTA.map(d => [WD, WE].includes(d)).includes(true);
 
-			if (isOTA)
+			if (isOTA) {
 				header.parentElement.appendChild(prepaidP);
 				document.querySelector("#btnPaymentMethod").parentNode.parentNode.parentNode.appendChild(prepaidP.cloneNode(true));
+			}
 
 		}
 
