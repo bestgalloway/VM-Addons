@@ -2,6 +2,8 @@
 // @name         VM Addons
 // @namespace    bestgalloway
 // @version      0.4
+// @downloadURL https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
+// @updateURL https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @description  Adds utility buttons & messages to the DOM on certain pages to make life easier for users.
 // @author       bestgalloway
 // @match        *.vmcloudpms.com/*
