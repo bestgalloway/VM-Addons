@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         VM Addons
 // @namespace    bestgalloway
-// @version      0.4
-// @downloadURL https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
-// @updateURL https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
+// @version      0.5
+// @downloadURL  https://raw.githubusercontent.com/bestgalloway/VM-Addons/master/VMAddons.js
+// @updateURL    https://raw.githubusercontent.com/bestgalloway/VM-Addons/master/VMAddons.js
 // @description  Adds utility buttons & messages to the DOM on certain pages to make life easier for users.
 // @author       bestgalloway
 // @match        *.vmcloudpms.com/*
@@ -11,6 +11,7 @@
 // @require https://raw.githubusercontent.com/rafaelw/mutation-summary/master/src/mutation-summary.js
 // ==/UserScript==
 
+//test for update
 (function () {
 	'use strict';
 	// uses mutation-summary.js to create an easy to use MutationObserver to make sure that the page is done loading the first time before executing the callback
