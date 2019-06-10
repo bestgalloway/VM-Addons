@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         VM Addons
 // @namespace    bestgalloway
-// @version      0.5.3
+// @version      0.5.4
 // @downloadURL  https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @updateURL    https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @description  Adds utility buttons & messages to the DOM on certain pages to make life easier for users.
@@ -97,7 +97,7 @@
 	}
 	//adds reservation details to the header at the top. Also indicates if a reservation is prepaid based on known OTA discount codes
 	function reservationScreen() {
-		var OTA = ["15C", "15D", "15E", "1P", "2P", "44", "45", "D2", "D3", "EC1", "EC3", "EC5", "EC8", "EC9", "ECR", "FI", "HB1", "PKG", "PL", "PLZ", "PN", "SR1", "SR5", "SR8", "SR9", "TH", "TRHN", "X2", "Z9"];
+		var OTA = ["15C", "15D", "15E", "1P", "2P", "44", "45", "D2", "D3", "EC1", "EC3", "EC5", "EC8", "EC9", "ECR", "FI", "HB1", "PKG", "PL", "PLZ", "PN", "SR1", "SR5", "SR8", "SR9", "TH", "THL", "TRHN", "X2", "Z9"];
 
 		var header = document.querySelector('.mid-panel-heading').childNodes[0];
 		var lName = document.querySelector('#txtLastName').value;
