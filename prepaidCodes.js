@@ -1,4 +1,4 @@
-var OTA = 
+export var OTA = 
 ["15A",
 "15C",
 "15D",
