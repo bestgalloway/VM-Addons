@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         VM Addons
 // @namespace    bestgalloway
-// @version      0.5.50
+// @version      0.5.43
 // @downloadURL  https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @updateURL    https://github.com/bestgalloway/VM-Addons/raw/master/VMAddons.js
 // @description  Adds utility buttons & messages to the DOM on certain pages to make life easier for users.
@@ -77,7 +77,6 @@
 
 			var event = new Event('change');
 
-
 			var dates = document.querySelectorAll('[name^="resArrivalDate"]');
 
 			dates[1].value = yesterday;
@@ -90,7 +89,6 @@
 			email.dispatchEvent(event);
 
 			document.querySelector('[data-ng-click="smMarketingGuest.process()"]').click();
-			document.querySelector('[data-ng-model="exportOptions.models.fileName"]').value= "MARKETINGALLCOUNTRIES";
 
 		}
 
